@@ -1,0 +1,34 @@
+body {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+.container {
+  width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+#game {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#controls {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+#grid {
+  width: 300px;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-top: -4px;
+}
+
+.clicked {
+  box-shadow: inset 0 0 2px 2px white;
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Hue game</title>
+    <meta name="description" content="Hue game">
+    <meta name="author" content="Alicja Raszkowska">
+
+    <link rel="stylesheet" href="hue.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>Click colors to swap them</h3>
+      <p>- all the corners are in the right place</p>
+      
+      <div id="controls">
+        <div id="grid-form" >
+          <input type="range" id="grid" 
+                min="3" max="9"
+                onChange="changeGridSize()"></input>
+        </div>
+      </div>
+      
+      <div id="game"></div>
+    </div> 
+  </body>
+  <script src="hue.js"></script>
+</html>
